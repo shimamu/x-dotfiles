@@ -1,0 +1,71 @@
+!! ~/.Xresources
+
+! rxvt-unicode (urxvt)
+!
+! To know option detail, see 'man urxvt'.
+! ==============================================================================
+! Scrollbar
+URxvt.scrollBar:       true
+URxvt.scrollBar_right: true
+URxvt.scrollstyle:     plain
+
+! pointer / cursor
+URxvt.pointerBlank:    true
+URxvt.cursorBlink:     false
+
+! font
+URxvt.font:            xft:Hack Nerd Font Mono-10,\
+                       xft:IPAGothic-10
+
+! screen
+URxvt.saveLines:       3000
+URxvt.depth:           32
+URxvt.fading:          30
+
+! Color
+!   * Use same color normal(0~7) and bright(8~15).
+!   * Color theme based on 'Monokai'.
+! ------------------------------------------------------------------------------
+! black
+URxvt.color0:      [75]#000000
+URxvt.color8:      [75]#000000
+!URxvt.color0:      [100]#272822
+!URxvt.color8:      [100]#272822
+
+! red
+URxvt.color1:      [90]#f92672
+URxvt.color9:      [90]#f92672
+
+! green
+URxvt.color2:      [90]#a6e22e
+URxvt.color10:     [90]#a6e22e
+
+! yellow
+URxvt.color3:      [90]#fd971f
+URxvt.color11:     [90]#fd971f
+
+! blue
+URxvt.color4:      [90]#66d9ed
+URxvt.color12:     [90]#66d9ed
+
+! magenta
+URxvt.color5:      [90]#ae81ff
+URxvt.color13:     [90]#ae81ff
+
+! cyan
+URxvt.color6:      [90]#e6db74
+URxvt.color14:     [90]#e6db74
+
+! white
+URxvt.color7:      [90]#f8f8f2
+URxvt.color15:     [90]#f8f8f2
+
+URxvt.foreground:  [90]#eeeeee
+!URxvt.background:  [100]#272822
+URxvt.background:  [75]#000000
+URxvt.colorIT:     [90]#8ec07c
+URxvt.colorBD:     [90]#fe8019
+URxvt.colorUL:     [90]#83a598
+URxvt.scrollColor: [90]#504945
+!URxvt.troughColor: [90]#3C3836
+
