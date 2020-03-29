@@ -14,7 +14,7 @@ URxvt.pointerBlank:    true
 URxvt.cursorBlink:     false
 
 ! font
-URxvt.font:            xft:Hack Nerd Font Mono-10,\
+URxvt.font:            xft:CodeNewRoman Nerd Font Mono-11,\
                        xft:IPAGothic-10
 
 ! screen
